@@ -94,7 +94,7 @@ const Main = () => {
       <Subform
         title="Domain Mapping"
         row={[
-          <SingleLine placeholder="Domain" />,
+          <SingleLine placeholder="Enter Domain" />,
           <SingleLine placeholder="From Address" />,
         ]}
         data={preference}
