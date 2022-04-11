@@ -1,0 +1,30 @@
+.SingleLine {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.SingleLine .title {
+  font-size: 12px;
+  background: white;
+  position: absolute;
+  top: -30%;
+  left: 2%;
+  color: #2e7d32;
+  padding: 5px;
+  font-weight: 500;
+}
+.SingleLine input.textInput {
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+}
+.SingleLine input.textInput:focus {
+  outline: none;
+  border: solid 1px #2e7d32;
+}
+.hidden {
+  display: none;
+}

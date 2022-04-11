@@ -1,0 +1,43 @@
+.Subform {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  border: solid 1px #616468;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.Subform .subformTitle {
+  background: linear-gradient(
+    to right,
+    #676a6e 0,
+    #272c33 50%,
+    #272c33 50%,
+    #676a6e 100%
+  );
+  color: white;
+  padding: 10px;
+}
+.Subform .subformRow {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin: 10px;
+}
+.Subform button {
+  border: none;
+  background: none;
+  color: green;
+  font-weight: 500;
+}
+.Subform .addNew {
+  align-self: center;
+  margin: 10px;
+}
+.Subform .deleteRow {
+  align-self: center;
+  font-size: 10px;
+}
+.invisible {
+  visibility: hidden;
+}
